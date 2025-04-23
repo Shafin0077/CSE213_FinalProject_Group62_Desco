@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.ReportInfrastructureIssues">
+   <children>
+      <Label layoutX="44.0" layoutY="14.0" text="Report an Issue" />
+      <ComboBox layoutX="126.0" layoutY="43.0" prefWidth="150.0" promptText="Burnt Transformer" />
+      <Label layoutX="28.0" layoutY="47.0" text="Select Issue type" />
+      <TextArea layoutX="432.0" layoutY="47.0" prefHeight="53.0" prefWidth="200.0" />
+      <Label layoutX="330.0" layoutY="65.0" text="Describe the Issue" />
+      <TextField layoutX="127.0" layoutY="101.0" />
+      <Label layoutX="28.0" layoutY="105.0" text="Location" />
+      <Button layoutX="291.0" layoutY="101.0" mnemonicParsing="false" text="Use GPS" />
+      <Button layoutX="116.0" layoutY="144.0" mnemonicParsing="false" text="Upload" />
+      <Label layoutX="28.0" layoutY="148.0" text="Image" />
+      <Label layoutX="30.0" layoutY="192.0" text="Priority Assigned" />
+      <ComboBox layoutX="140.0" layoutY="187.0" prefWidth="150.0" promptText="High/Low" />
+      <Button layoutX="116.0" layoutY="247.0" mnemonicParsing="false" text="Submit" />
+      <Button layoutX="549.0" layoutY="10.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>

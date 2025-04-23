@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.GenerateProjectReports">
+   <children>
+      <Label layoutX="26.0" layoutY="28.0" text="Generate Project Reports" />
+      <ComboBox layoutX="32.0" layoutY="46.0" prefWidth="150.0" promptText="Status Report" />
+      <ComboBox layoutX="32.0" layoutY="84.0" prefWidth="150.0" promptText="Select Project " />
+      <DatePicker layoutX="20.0" layoutY="119.0" promptText="start date" />
+      <DatePicker layoutX="18.0" layoutY="155.0" prefHeight="26.0" prefWidth="175.0" promptText="End date" />
+      <Button layoutX="182.0" layoutY="213.0" mnemonicParsing="false" text="Generate Report" />
+      <Button layoutX="12.0" layoutY="292.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" text="Export to PDF" />
+      <Button layoutX="120.0" layoutY="287.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="126.0" text="Export to Excel" />
+      <TextArea layoutX="20.0" layoutY="204.0" prefHeight="44.0" prefWidth="126.0" text=" Preview Area" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>

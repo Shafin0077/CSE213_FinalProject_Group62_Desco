@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.ManageScheduledOutages">
+   <children>
+      <Label layoutX="9.0" layoutY="13.0" prefHeight="26.0" prefWidth="190.0" text=" Manage Scheduled Outages" />
+      <Button layoutX="14.0" layoutY="50.0" mnemonicParsing="false" text="New Outage" />
+      <TextField layoutX="14.0" layoutY="85.0" promptText=" Reason for Outage " text=" Reason for Outage " />
+      <TextField layoutX="15.0" layoutY="123.0" text="Location" />
+      <TextField layoutX="16.0" layoutY="159.0" text=" Duration" />
+      <ComboBox layoutX="16.0" layoutY="200.0" prefWidth="150.0" promptText=" Duration" />
+      <Button layoutX="28.0" layoutY="240.0" mnemonicParsing="false" text="Schedule Outage" />
+      <TableView layoutX="208.0" layoutY="49.0" prefHeight="62.0" prefWidth="375.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Outage ID" />
+          <TableColumn prefWidth="75.0" text="Location" />
+            <TableColumn prefWidth="75.0" text="Reason" />
+            <TableColumn prefWidth="75.0" text="Scheduled Time" />
+            <TableColumn prefWidth="75.0" text="Status" />
+        </columns>
+      </TableView>
+      <TextArea layoutX="200.0" layoutY="126.0" prefHeight="26.0" prefWidth="200.0" text="Log Outcome " />
+      <Button layoutX="56.0" layoutY="322.0" mnemonicParsing="false" text="Mark as Completed" />
+      <Button layoutX="220.0" layoutY="322.0" mnemonicParsing="false" text="Save Log" />
+      <Button layoutX="499.0" layoutY="13.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>

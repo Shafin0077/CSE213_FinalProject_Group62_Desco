@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.AssignAndTrackMaintenanceTasks">
+   <children>
+      <Label layoutX="14.0" layoutY="9.0" prefHeight="18.0" prefWidth="237.0" text="Assign and Track Maintenance Tasks" />
+      <Button layoutX="14.0" layoutY="40.0" mnemonicParsing="false" text="New Task" />
+      <ComboBox layoutX="14.0" layoutY="76.0" prefWidth="150.0" promptText="Task Type" />
+      <TextField layoutX="15.0" layoutY="114.0" promptText="Location" />
+      <TextArea layoutX="15.0" layoutY="148.0" prefHeight="32.0" prefWidth="200.0" text="Description" />
+      <ComboBox layoutX="15.0" layoutY="200.0" prefHeight="26.0" prefWidth="200.0" promptText="Assign to Field Staff or Team" />
+      <Button layoutX="11.0" layoutY="277.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="90.0" text="Create Task" />
+      <Button layoutX="127.0" layoutY="277.0" mnemonicParsing="false" text="Update Status" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>

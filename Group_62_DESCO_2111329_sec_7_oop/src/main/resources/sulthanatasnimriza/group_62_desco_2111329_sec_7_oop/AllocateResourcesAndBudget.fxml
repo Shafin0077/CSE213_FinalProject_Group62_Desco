@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.AllocateResourcesAndBudget">
+   <children>
+      <Label layoutX="9.0" layoutY="5.0" prefHeight="15.0" prefWidth="184.0" text="Allocate Resources and Budget" />
+      <ComboBox layoutX="26.0" layoutY="45.0" prefWidth="150.0" promptText="Select Project" />
+      <CheckBox layoutX="26.0" layoutY="93.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="106.0" text="Engineers" />
+      <CheckBox layoutX="26.0" layoutY="122.0" mnemonicParsing="false" text="Technicians" />
+      <CheckBox layoutX="27.0" layoutY="152.0" mnemonicParsing="false" text="Vehicles" />
+      <TextField layoutX="27.0" layoutY="181.0" text="Budget Amount " />
+      <TextField layoutX="28.0" layoutY="213.0" text="Cost Estimate" />
+      <Label layoutX="28.0" layoutY="255.0" prefHeight="18.0" prefWidth="198.0" text=" shows warning if double-booked" />
+      <Button layoutX="27.0" layoutY="294.0" mnemonicParsing="false" text="Save Allocation" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.CreateAndPlanNewProjects">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text=" Create and Plan New Projectsl" />
+      <Button layoutX="21.0" layoutY="49.0" mnemonicParsing="false" text="Create Project" />
+      <Button layoutX="21.0" layoutY="289.0" mnemonicParsing="false" text="Submit" />
+      <Label layoutX="34.0" layoutY="96.0" text="Title" />
+      <Label layoutX="27.0" layoutY="132.0" text="Description" />
+      <Label layoutX="32.0" layoutY="177.0" text="start date" />
+      <Label layoutX="33.0" layoutY="209.0" text="end date" />
+      <TextField layoutX="102.0" layoutY="92.0" />
+      <TextField layoutX="101.0" layoutY="128.0" />
+      <TextField layoutX="101.0" layoutY="169.0" />
+      <TextField layoutX="100.0" layoutY="205.0" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>
