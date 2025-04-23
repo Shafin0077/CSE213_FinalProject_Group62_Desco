@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sulthanatasnimriza.group_62_desco_2111329_sec_7_oop.ReportsModule">
+   <children>
+      <Label layoutX="56.0" layoutY="26.0" text="Reports Module" />
+      <Label layoutX="56.0" layoutY="62.0" text="Report type" />
+      <ComboBox layoutX="156.0" layoutY="58.0" prefWidth="150.0" promptText="Maintenance Summary" />
+      <DatePicker layoutX="149.0" layoutY="95.0" />
+      <DatePicker layoutX="410.0" layoutY="95.0" />
+      <Label layoutX="67.0" layoutY="99.0" text="From Date" />
+      <Label layoutX="355.0" layoutY="99.0" text="To date" />
+      <TextField layoutX="149.0" layoutY="139.0" />
+      <Label layoutX="71.0" layoutY="143.0" text="Area" />
+      <ComboBox layoutX="149.0" layoutY="175.0" prefWidth="150.0" promptText="Stuff" />
+      <Label layoutX="75.0" layoutY="179.0" text="Team" />
+      <Button layoutX="160.0" layoutY="232.0" mnemonicParsing="false" text="Apply Filter" />
+      <TextArea layoutX="334.0" layoutY="145.0" prefHeight="200.0" prefWidth="200.0" promptText="Data Preview" />
+      <Button layoutX="160.0" layoutY="298.0" mnemonicParsing="false" text="Export FIle" />
+      <Button layoutX="492.0" layoutY="29.0" mnemonicParsing="false" text="Log out" />
+   </children>
+</AnchorPane>
