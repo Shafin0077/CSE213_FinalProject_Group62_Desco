@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<?import com.sun.org.apache.xpath.internal.operations.String?>
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="250.0" layoutY="14.0" text="Network Maintenance" style="-fx-font-size: 18px;" />
+
+      <Button fx:id="networkMonitoringButton" layoutX="150.0" layoutY="60.0" text="Network Monitoring" />
+
+      <Label layoutX="30.0" layoutY="100.0" text="Identify Network Issues:" />
+      <ListView fx:id="networkIssuesListView" layoutX="150.0" layoutY="95.0" prefWidth="500.0" prefHeight="150.0">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="Network Outage at Location A" />
+               <String fx:value="High Latency Detected in Segment B" />
+               <String fx:value="Firewall Error at Router 5" />
+            </FXCollections>
+         </items>
+      </ListView>
+
+      <Label layoutX="30.0" layoutY="270.0" text="Troubleshooting Actions:" />
+      <Button fx:id="applyFixButton" layoutX="150.0" layoutY="265.0" text="Apply Fix (Update Firmware)" />
+
+      <Label fx:id="fixStatusLabel" layoutX="150.0" layoutY="310.0" text="Fix Status: Pending" />
+
+      <Button fx:id="verifyButton" layoutX="300.0" layoutY="310.0" text="Verify Network Stability" />
+      <Button fx:id="homeButton" layoutX="450.0" layoutY="310.0" text="Return Home" />
+
+      <Label fx:id="verificationStatusLabel" layoutX="150.0" layoutY="350.0" text="Network Stability: Unverified" />
+   </children>
+</AnchorPane>
